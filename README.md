@@ -1,8 +1,8 @@
 # ipwhois
 
-演示：https://good.chenjialuo.cn/ip
+演示：http://good.chenjialuo.cn/ip
 
-IPWhois使用PHP结合第三方IP查询接口来获取IP相关信息。在这里，使用IPinfo（https://ipinfo.io/）作为IP查询接口，当用户访问你的网站时ta能看到自己的IP信息或者查询其他IP信息。
+IPWhois使用PHP结合第三方IP查询接口来获取IP相关信息。在这里，使用IPinfo（https://ipinfo.io/） 作为IP查询接口，当用户访问你的网站时ta能看到自己的IP信息或者查询其他IP信息。
 
 首先，确保你的PHP服务器环境可用，并且可以使用cURL扩展。然后再将index.php文件保存到你的本地服务器运行。
 
