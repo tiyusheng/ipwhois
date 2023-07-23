@@ -17,7 +17,7 @@ IPWhois使用PHP结合第三方IP查询接口来获取IP相关信息。在这里
 当网站开启Cloudflare之后，可以通过解析Cloudflare提供的HTTP请求头来获取用户的真实IP地址。Cloudflare将用户真实IP地址存储在 $_SERVER['HTTP_CF_CONNECTING_IP'] 字段中。
 
 
-加上这一段代码：
+在index.php 中加上这一段代码：
 
   // Function to get visitor's real IP address (considering Cloudflare)
         function getRealIP() {
