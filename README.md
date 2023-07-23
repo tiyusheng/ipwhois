@@ -19,7 +19,7 @@ IPWhois使用PHP结合第三方IP查询接口来获取IP相关信息。在这里
 
 加上这一段代码：
 
- // Function to get visitor's real IP address (considering Cloudflare)
+  // Function to get visitor's real IP address (considering Cloudflare)
         function getRealIP() {
             if (isset($_SERVER['HTTP_CF_CONNECTING_IP'])) {
                 // Cloudflare
@@ -34,4 +34,6 @@ IPWhois使用PHP结合第三方IP查询接口来获取IP相关信息。在这里
             }
         }
 
-        完整代码请查看 cf.php
+
+
+完整代码请查看 cf.php或者参考Cloudflare提供的文献资料。
