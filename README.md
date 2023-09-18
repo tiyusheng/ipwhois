@@ -1,6 +1,5 @@
 # ipwhois
 
-演示：http://good.chenjialuo.cn/ip
 
 IPWhois使用PHP结合第三方IP查询接口来获取IP相关信息。在这里，使用IPinfo（https://ipinfo.io/） 作为IP查询接口，当用户访问你的网站时ta能看到自己的IP信息或者查询其他IP信息。
 
